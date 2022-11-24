@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <title>Dribble</title>
 </head>
 <body>
     <div class="container">
         <div class="heading">
-            <h2> <img id="image" src="download.png" alt=""> Giihan.</h2>
+            <h2 class="logo"><i class="fa-solid fa-snowflake"></i>  <span>Giihan.</span></h2>
         </div>
         <div class="subheading">
             <h1>Welcome back!</h1>
-            <br>
             <p>The faster you fill up, the faster you get a ticket</p>
         </div>
         <div class="forms">
@@ -24,19 +24,20 @@
                 <header><b>Password</b></header>
                 <input type="text" id="password" placeholder="********">
                 <br>
-                <input type="checkbox"  id="reminder"><label for="">Remember me</label>
             </form>
-                <nav class="link">
-                    <a href="http://">Forgot Password</a>
+                <nav class="click">
+                    <label><input type="checkbox"  id="reminder">   Remember me</label>
+                    <a id="forgot" href="">Forgot Password</a>
                 </nav>
+                    
+               
                 <div class="button">
-                    <input type="button" value="Sign In">
-                    <input type="button" value="Sign In with Google">
+                    <input type="button" value="Sign In"> <br>
                 </div>
-                    <br>
-                <p class="signup">Don't have an account? <a href="http://"><b>Sign up</b></a></p>
+                    <a href="" class="sign"><i class="fa-brands fa-google"></i> Sign In With Google</a>
+                <p class="signup">Don't have an account? <a href=""><b>Sign up</b></a></p>
         </div>
-        <img src="patrik-velich-ei0o8F5kn1g-unsplash.jpg" alt="patrik" width="500px" height="auto" style="order: 2;">
+        <img src="patrik-velich-ei0o8F5kn1g-unsplash.jpg" alt="patrik" width="500px" height="500px" style="order: 2;">
     </div>
 </body>
 </html>

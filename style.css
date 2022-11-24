@@ -1,22 +1,111 @@
 @import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: max-content;
+    
+}
 body{
     display: flex;
     flex-direction: column;
     color: black;
     flex-wrap: wrap;
-    background-color: #E6E6E6;
+    background-color:#D7D7D9 ;
+    padding: 50px;
 }
 
 .container{
+    justify-content: space-between;
+    align-items: center;
    background-color: white; 
+   width: 80%;
+}
+.heading{
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.subheading{
+    margin-top: 8%;
+    margin-left: 10%;
+}
+
+.subheading h1{
+    margin-left: 30px;
+    color: #252221;
+} 
+
+
+.subheading p{
+    color: #ACAAA6;
+}
+
+.forms {
+    margin-top: 1%;
+    margin-left: 9%;
+    width: 300px;
+
+}
+
+.form header{
+    margin-top: 15px ;
+    margin-bottom: 2px;
+}
+.form input{
+    margin-top: 4px;
+    padding: 8px 10px 5px;  
+}
+
+.click #reminder{
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 
+
+.button input{
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    width: 70%;
+    padding: 7px 0;
+    margin-bottom: 15px;
+}
+
+.sign{
+    
+    text-decoration: none;
+}
+.fa-google{
+    color: rgb(red, green, blue);
+}
+
+p.signup  {
+    margin-top: 40%;
+    text-decoration: none;
+}
+
+ #forgot{
+    text-decoration: none;
+    position: relative;
+    margin-left: 5px;
+    padd
+}
+
+ nav .click{
+    margin-top: 5px;
+   display: inline-block;
    
+}
 
-
+nav .click #forgot{
+    text-decoration: none;
+} 
 img{
-order: 2;
-  
+position: relative;
+margin-left: 50%;  
+margin-top: -58%;
    
 }
